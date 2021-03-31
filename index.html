@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Hello, world!</title>
+
+
+
+    <style>
+
+      
+      .link1:hover{
+        
+        border-bottom: 4px solid  rgb(34, 229, 243);
+      }
+
+      .link2:hover{
+        color: rgb(34, 229, 243);
+        border-bottom: 4px solid  rgb(34, 229, 243);
+      }
+
+      .link3:hover{
+        color: rgb(34, 229, 243); 
+        border-bottom: 4px solid  rgb(34, 229, 243);
+      }
+      
+      .shade-left{
+        box-shadow: 0px 5px 5px rgb(228, 226, 226);
+        
+      }
+      .shade-right{
+        box-shadow: 0px 5px 5px rgb(228, 226, 226);
+        
+      }
+    
+    .job{
+      box-shadow: 10px 10px 10px rgb(228, 226, 226);
+      border-radius: 20px;
+      
+    }
+    .handmade{
+      border: none;
+      background-color: darkgray;
+    }
+   
+    </style>
+  </head>
+  
+  <body>
+    <div class="container-fluid"> 
+    <div class="row">
+        <div class="col-md-12">  
+               
+    <!-- Navigation bar-->
+    
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+        
+        <a class="navbar-brand" href="#">JOB <span class="text-primary">Portal</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav" >
+            <li class="nav-item">
+              <a class="nav-link link1" href="#" style="color:rgb(34, 229, 243); ">Find jobs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link2 text-dark" href="#">Company Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link3 text-dark" href="#">Find Salaries</a>
+            </li>    
+          </ul>
+        
+          <div class="ml-auto">
+            <i class="material-icons mx-2">chat_bubble</i>
+            <i class="material-icons mx-2">notifications</i>
+            <i class="material-icons mx-2">person</i>
+            <span class="mb-5 mx-2" style="height: 100px;font-size: 25px;">|</span>
+            <span class="mr-2">Employers/Post Job</span>
+          </div>
+                           
+        </div>  
+      </nav>                          
+            </div><!--end nav col-->  
+        </div> <!--end row-->
+
+<!--header start-->
+     <div class="row mt-5 justify-content-around" style="height: 500px;background-color:rgb(207, 247, 250);">
+     
+      <div class="col-md-5 mt-3 align-self-center">
+        <h5>Opportunities waiting for you!</h5>      
+        <h1 style="font-size: 50px;"><b> Find The Job</b></h1>  
+        <h1 style="font-size: 50px;"><b>That Fit In Your Life!</b></h1>  
+      </div>
+
+      <div class="col-md-3 col-9 mb-5 align-self-center">
+        <img class="img-fluid rounded-circle" src="banner.jpg" alt="baaner image">
+      </div>
+    </div>
+<!--header start-->
+
+    <!--middle form-->
+    <div class="row my-5" >
+      <!-- brifcase and company start-->
+      <div class="col-md-4 offset-md-1 col-10 offset-1 shade-left py-2" style="border-top-left-radius:20px;border-bottom-left-radius: 20px;">
+        
+        <div class="row"><!--brifcase start-->          
+          <div class="col-md-2 col-4">
+            <i class="material-icons bg-primary mt-2 rounded text-white" style="font-size:70px;">business_center</i>
+          </div>
+
+          <div class="col-md-4 col-8">
+            <p class="text-muted mt-3"> <b>1,77,887</b><br>
+               Job Opportunity</p>
+          </div>
+
+          <div class="col-md-2 col-4">
+            <i class="fa fa-bank mt-2 bg-warning mt-1 rounded" style="font-size:65px;color:white"></i>
+          </div>
+          
+          <div class="col-md-4 col-8">            
+            <p class="text-muted mt-3">&nbsp;&nbsp;<b>5,787 </b><br>
+              &nbsp;&nbsp;Company</p>
+          </div>
+        </div><!--brifcase end-->
+
+      </div><!--brifcase and company end-->
+
+      <div class="col-md-6 offset-md-0 col-10 offset-1 shade-right py-2" style="border-top-right-radius:20px;border-bottom-right-radius: 20px;"><!--inline form start-->
+       
+        <form class="form-inline" action="#">
+          <input type="text" class="form-control form-control-lg mt-3" placeholder="Job Title,keywords or company" id="job" style="background-color:  rgb(218, 248, 250);">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" class="form-control form-control-lg mt-3" placeholder="City, ZIP Code" id="pwd" style="background-color:  rgb(218, 248, 250);">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="submit" class="btn btn-primary btn-lg mt-3"><i class="fa fa-search" aria-hidden="true" style="font-size: 25px;"></i></button>
+        </form>
+
+      </div>
+    </div> <!--middle form row end-->
+       
+<h1 class="text-center my-5" style="font-size: 50px;"><b>Job For <span class="text-primary">You</span></b>  </h1>
+
+<div class="row justify-content-around"><!-- job for you row-1 start-->
+  
+  <div class="col-md-3 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary card-link" style="margin-left: 140px;">Apply Now</a>
+        </div> 
+      </div> 
+  </div>
+  </div>
+
+  <div class="col-md-3 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary card-link" style="margin-left: 140px;">Apply Now</a>
+        </div> 
+      </div> 
+  </div>
+  </div>
+
+  <div class="col-md-3 my-2">
+    <div class="card job bg-dark">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary card-link" style="margin-left: 140px;">Apply Now</a>
+        </div> 
+      </div> 
+  </div>
+  </div>
+
+</div><!-- job for you row-1 end-->
+<br>
+<div class="row justify-content-around"><!-- job for you row-2 start-->
+  
+  <div class="col-md-3 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary card-link" style="margin-left: 140px;">Apply Now</a>
+        </div> 
+      </div> 
+  </div>
+  </div>
+
+  <div class="col-md-3 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary card-link" style="margin-left: 140px;">Apply Now</a>
+        </div> 
+      </div> 
+  </div>
+  </div>
+
+  <div class="col-md-3 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary card-link" style="margin-left: 140px;">Apply Now</a>
+        </div> 
+      </div> 
+  </div>
+  </div>
+  
+</div><!-- job for you row-2 end-->
+
+<br>
+<br>
+<div class="text-center">
+  <a href="#">
+    <button type="submit" class="btn btn-primary btn-lg">Show all jobs &nbsp;&nbsp;<i class="fa fa-arrow-right"></i></button>
+  </a>  
+</div>
+<br>
+<br>
+
+<h1 class="text-center my-2" style="font-size: 50px;"><b>Explore By<span class="text-primary">&nbsp;Categories</span></b>  </h1>
+<br>
+
+<div class="row justify-content-around"><!-- Categories row-1 start-->
+  
+  <div class="col-md-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div> 
+    </div>
+  </div>
+
+  <div class="col-md-2 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div> 
+    </div>
+  </div>
+
+  <div class="col-md-2 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div> 
+    </div>
+  </div>
+
+  <div class="col-md-2 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div> 
+    </div>
+  </div>
+  
+</div><!-- Categories row-1 end-->
+
+<br>
+
+<div class="row justify-content-around"><!-- Categories row-2 start-->
+  
+  <div class="col-md-2 my-2">
+    <div class="card job bg-dark">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div> 
+    </div>
+  </div>
+
+  <div class="col-md-2 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div> 
+    </div>
+  </div>
+
+  <div class="col-md-2 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div> 
+    </div>
+  </div>
+
+  <div class="col-md-2 my-2">
+    <div class="card job">
+      <div class="card-body">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div> 
+    </div>
+  </div>
+  
+</div><!-- Categories row-2 end-->
+<br>
+<br>
+
+<!--top companies job start--> 
+<div class="row">  
+  <div class="col-md-5 offset-md-1 mt-5 col-12"><!--col of top companies start-->
+    <h1 class=" my-2" style="font-size: 50px;">Over<span class="text-primary">&nbsp;15,0000+&nbsp;</span> Top
+       Companies Job Posted
+    </h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique minima 
+      quod doloribus ipsam vitae, aliquam pariatur neque id dolorum sapiente ducimus quis! Et earum fugiat distinctio doloribus nulla quaerat natus excepturi reiciendis veniam consequuntur quidem aspernatur aperiam totam labor.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <a href="#" class="btn btn-primary btn-lg job mb-5" style="font-size: 30px;">Get Started</a> 
+    
+  </div><!--col of top companies end-->
+
+  
+  <div class="col-md-6"><!--handmade column start-->
+  
+    <div class="row"><!-- 1st row start-->
+     
+      <div class="col-md-5 col-8"><!--1st row big circle start-->
+        <div class="card rounded-circle handmade">
+          <div class="card-body">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>           
+          </div> 
+        </div>
+      </div><!--1st row big circle end-->
+
+
+      <div class="col-md-3 col-4"><!--1st row small circle start-->
+        <div class="card rounded-circle handmade">
+          <div class="card-body">
+            <br>
+            <br>
+            <br>
+            <br>                      
+          </div> 
+        </div>
+      </div><!--1st row small circle end-->
+    </div><!-- 1st row end-->
+
+    <div class="row"><!-- 2nd row start-->
+
+      <div class="col-md-3 offset-md-2 col-4"><!--2nd row small circle start-->
+        <div class="card rounded-circle handmade">
+          <div class="card-body">
+            <br>
+            <br>
+            <br>
+            <br>                      
+          </div> 
+        </div>
+      </div><!--2nd row small circle end-->
+
+      <div class="col-md-5 col-8"><!--2nd row big circle start-->
+        <div class="card rounded-circle handmade">
+          <div class="card-body">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>           
+          </div> 
+        </div>
+      </div><!--2nd row big circle end-->
+    </div><!-- 2nd row end-->
+
+    <div class="row"><!-- 3rd row start-->
+      <div class="col-md-5"><!--3rd row big circle start-->
+        <div class="card rounded-circle handmade">
+          <div class="card-body">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>           
+          </div> 
+        </div>
+      </div><!--3rd row big circle end-->
+  </div><!-- 3rd row end--> 
+
+  </div><!--handmade column end-->
+    
+  </div><!--top companies job start-->
+
+<br>
+<br>
+<h1 class="text-center my-5" style="font-size: 50px;"><b> What Say <span class="text-primary">About Us</span> </b></h1>
+<br>
+<br>
+
+<div class="row justify-content-center"><!--about us row start-->
+  <div class="col-md-8">
+    
+    <div class="row"><!--1st emp row start-->
+      
+      <div class="col-md-2 offset-md-2 col-6 offset-3">
+        <div class="card job">
+          <div class="card-body">
+            <br>
+            <br>      
+          </div> 
+        </div>
+      </div>
+
+      <div class="col-md-2  offset-md-2 col-6 offset-3 mt-5">
+        <div class="card job">
+          <div class="card-body">
+            <br>
+            <br>      
+          </div> 
+        </div>
+      </div>
+
+      <div class="col-md-2  offset-md-2 col-6 offset-3 mt-5">
+        <div class="card job">
+          <div class="card-body">
+            <br>
+            <br>      
+          </div> 
+        </div>
+      </div>
+
+    </div><!--1st emp row end-->
+
+    <div class="row"><!--2nd emp row start-->
+      
+      <div class="col-md-2 offset-md-1 col-6 offset-3 mt-5">
+        <div class="card job">
+          <div class="card-body">
+            <br>
+            <br>      
+          </div> 
+        </div>
+      </div>
+
+      <div class="col-md-5 offset-md-1 col-10 offset-1 "><!--employee profile card start-->
+        <div class="card job mt-5">
+          <div class="card-body">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam neque maxime 
+                  ipsum </p>
+                  <h4 class="text-center text-primary">Dianne Russel</h4>
+                  <p class="text-muted text-center">Acturial Science</p>
+          </div> 
+        </div>
+      </div><!--employee profile card end-->
+
+      <div class="col-md-2 offset-md-1 col-6 offset-3 mb-5" style="margin-top:130px;">
+        <div class="card job">
+          <div class="card-body">
+            <br>
+            <br>      
+          </div> 
+        </div>
+      </div>
+
+    </div><!--2nd emp row end-->
+  </div>
+</div><!--about us row end-->
+
+<!-- news row start-->
+<div class="row mt-5 justify-content-center" style="height: 240px;background-color:rgb(207, 247, 250);">
+<div class="col-md-7 col-12">
+  <h1 class="text-center my-5" style="font-size: 50px;">Subscribe <span class="text-primary">Newsletter</span> & Get
+  Company News.
+  </h1>
+  </div>
+</div><!-- news row end-->
+
+<div class="row" style="height: 100px;background-color:rgb(207, 247, 250);">
+  <div class="col-md-6 offset-md-3 col-12 ">
+    <!--news letter subscribe form-->
+    <form class="form-inline " action="#">
+      <div class="input-group mb-3 input-group-lg">
+      <input type="email" class="form-control form-control-lg" placeholder="Email Address" id="news" style="width: 500px; border-top-left-radius: 20px;border-bottom-left-radius: 20px;">
+      <div class="input-group-append">
+        <span class="fa fa-check-square text-primary rounded" style="font-size:40px;"></span>
+      </div>    
+    </div>
+  </form>
+</div>
+</div><!-- news row end-->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer class="row">
+
+  <div class="col-md-3 offset-md-1 col-8 offset-2 mt-5">
+    <h5>Sign Up For Email</h5>
+    <br>
+    <p class="text-muted">Get The Latest News About
+      Actuarial Science & More
+    </p>
+    <!--email subscribe form footer-->
+    <form class="form-inline " action="#" style="">
+      <div class="input-group mb-3 input-group-lg">
+      <input type="email" class="form-control form-control-lg " placeholder="Email" id="footer-email" style="">
+      <div class="input-group-append ">
+        <span class="input-group-text bg-primary text-white">Sign Up</span>
+      </div>    
+    </div>
+  </form>
+
+  <i class="fa fa-facebook-square" style="font-size:24px"></i>
+  <i class="fa fa-instagram mx-2" style="font-size:24px"></i>
+  <i class="fa fa-twitter mx-2" style="font-size:24px"></i>
+  <i class="fa fa-youtube-play mx-2" style="font-size:24px"></i>
+  <i class="fa fa-linkedin-square mx-2" style="font-size:24px"></i>
+  </div>
+
+  <div class="col-md-3 offset-md-0 col-11 offset-1 mt-5">
+    <h5><span class="text-primary">MAIL US ON </span>admin@smonk.in</h5>
+    <br>
+    
+    <h5 class="text-primary">Locate Us</h5>
+    <p class="text-muted">3891 Ranchview Dr.Richardson
+      California 62639
+    </p>
+      
+    <h5 class="text-primary">We Support</h5>
+    <i class="fa fa-cc-visa" style="font-size:36px"></i>
+    <i class="fa fa-cc-mastercard" style="font-size:36px"></i>    
+  </div>
+
+  <div class="col-md-2 offset-md-0 col-8 offset-2 mt-5 ">
+    <h5 class="text-center">Customer Service</h5>
+    <ul class="mt-5" style="list-style: none;">
+      <li class="text-muted">lorem ipsum</li>
+      <li class="mt-2 text-muted">lorem ipsum</li>
+      <li class="mt-2 text-muted">lorem ipsum</li>
+      <li class="mt-2 text-muted">lorem ipsum</li>
+      <li class="mt-2 text-muted">lorem ipsum</li>  
+    </ul>
+  </div>
+
+  <div class="col-md-2 offset-md-0 col-8 offset-2 mt-5">
+    <h5 class="text-center">Who We Are</h5>
+    <ul class="mt-5" style="list-style: none;">
+      <li class="text-muted">lorem ipsum</li>
+      <li class="mt-2 text-muted">lorem ipsum</li>
+      <li class="mt-2 text-muted">lorem ipsum</li>
+      <li class="mt-2 text-muted">lorem ipsum</li>
+      <li class="mt-2 text-muted">lorem ipsum</li> 
+      <li class="mt-2 text-muted">lorem ipsum</li> 
+      <li class="mt-2 text-muted">lorem ipsum</li>  
+    </ul>
+  </div>
+  
+
+</footer>
+  <br>
+  <br>
+  <br>
+  <br>
+    </div><!--end container-->
+    
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </body>
+    </html>
